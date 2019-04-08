@@ -1,6 +1,6 @@
 node{
    stage('SCM Checkout'){
-     git 'https://github.com/Payal-Setiya/javaapp.git'
+     git 'https://github.com/Payal-Setiya/gameoflife.git'
    }
    stage('Compile-Package'){
       // Get maven home path
