@@ -26,4 +26,4 @@ node{
          sh 'scp -o StrictHostKeyChecking=no gameoflife-web/target/*.war root@184.72.94.32:/opt/tomcat/webapps/'
       }
    }
- }a
+ }
