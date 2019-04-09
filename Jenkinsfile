@@ -6,7 +6,7 @@ node{
       // Get maven home path
       def mvnHome =  tool name: 'Maven', type: 'maven'   
       sh "${mvnHome}/bin/mvn package"
-      junit 'gameoflife-web/target/surefire-reports/**/*.xml'
+       // junit 'gameoflife-web/target/surefire-reports/**/*.xml'
      
    }
    
