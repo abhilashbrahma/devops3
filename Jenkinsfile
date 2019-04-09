@@ -6,14 +6,10 @@ node{
       // Get maven home path
       def mvnHome =  tool name: 'Maven', type: 'maven'   
       sh "${mvnHome}/bin/mvn package"
+      junit 'gameoflife-web/target/surefire-reports/**/*.xml'
      
    }
-   stage('Test-Package'){
-      // Get maven home path
-      def mvnHome =  tool name: 'Maven', type: 'maven'   
-      sh "${mvnHome}/bin/mvn test"
-      junit 'gameoflife-web/target/surefire-reports/**/*.xml'
-   }
+   
    stage('SonarQube Analysis') {
         def mvnHome =  tool name: 'Maven', type: 'maven'
         withSonarQubeEnv('SonarQube') { 
