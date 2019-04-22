@@ -1,0 +1,38 @@
+mysql -h mysqldb2019.ciogy9l2dhmd.ap-south-1.rds.amazonaws.com -P 3306 -u mysqldb2019 -p
+
+https://github.com/abhilashbrahma/devops3.git
+
+https://binaries.sonarsource.com/Distribution/sonar-scanner-cli/sonar-scanner-cli-3.2.0.1227-linux.zip
+
+sonar token for jenkins:
+fa7415f76bc6e5cffd82e598324fc4379d6f3a15
+
+
+sonar.projectKey=devops3
+sonar.projectName=devops3
+sonar.projectVersion=1.0
+
+sonar.sources=.
+
+Payal-Setiya
+
+
+to choose which java to select from istalled version :sudo alternatives --config java
+
+
+This video disucs to setup Tomcat server on EC2 instance for our DevOps project
+Setps to follow : https://github.com/ValaxyTech/DevOpsD...
+
+01 - Jenkins: Installation & Configuration - https://www.youtube.com/endscreen?v=-...
+02 - Jenkins: Create Users Manage Assign Roles | Jenkins User Administration - https://www.youtube.com/edit?video_id...
+03 - Jenkins: Configure Global Security | Securing Jenkins Server - https://www.youtube.com/edit?video_id...
+04 - Jenkins: Plugins Installation | Necessary Jenkins Plugins in realtime - https://www.youtube.com/edit?video_id...
+05 - Jenkins: Master Slave Configuration - https://www.youtube.com/edit?video_id...
+06 - Maven: Setup & configure - https://youtu.be/wgfsVmHnAiM
+07 - Tomcat: Setup & configure - https://youtu.be/m21nFreFw8A
+
+
+Projects
+00 - Prerequisites - https://www.youtube.com/watch?v=XZTtT...
+01 - Project 01 - https://youtu.be/Z9G5stlXoyg
+02 - Project 02 - https://youtu.be/nE4b9mW2ym0
