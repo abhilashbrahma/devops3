@@ -4,9 +4,13 @@ https://github.com/abhilashbrahma/devops3.git
 
 https://binaries.sonarsource.com/Distribution/sonar-scanner-cli/sonar-scanner-cli-3.2.0.1227-linux.zip
 
+8b00c235163f4cc09cdd9d95a34c0cca
+https://github.com/abhilashbrahma/devops.git
+
 sonar token for jenkins:
 fa7415f76bc6e5cffd82e598324fc4379d6f3a15
 
+tomat - s3cret
 
 sonar.projectKey=devops3
 sonar.projectName=devops3
@@ -14,7 +18,7 @@ sonar.projectVersion=1.0
 
 sonar.sources=.
 
-Payal-Setiya
+
 
 
 to choose which java to select from istalled version :sudo alternatives --config java
@@ -36,3 +40,14 @@ Projects
 00 - Prerequisites - https://www.youtube.com/watch?v=XZTtT...
 01 - Project 01 - https://youtu.be/Z9G5stlXoyg
 02 - Project 02 - https://youtu.be/nE4b9mW2ym0
+
+
+1) why free style project and y maven style
+
+2) what is continuous integration 
+
+3) what are different tools in devops and its used for what 
+
+4) why sonar scanner is needed 
+5) why maven is used ?
+	
